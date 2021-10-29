@@ -34,7 +34,7 @@
     list-style-type: none;
 }
 
-.rightbar-freind{
+.rightbar-friend{
     display: flex;
     align-items: center;
     margin-bottom: 15px;
@@ -63,6 +63,8 @@
     border: 2px solid white;
 }
 
-.rightbar-username{
-    
+.rightbar-title{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
 }

@@ -23,6 +23,41 @@ const Rightbar = () => {
                         </div>
                         <span className="rightbar-username">John Doe</span>
                     </li>
+                    <li className="rightbar-friend">
+                        <div className="rightbar-profile-image-container">
+                            <img src={ Person2 } alt="" className="rightbar-profile-image" />
+                            <span className="rightbar-online"></span>
+                        </div>
+                        <span className="rightbar-username">John Doe</span>
+                    </li>
+                    <li className="rightbar-friend">
+                        <div className="rightbar-profile-image-container">
+                            <img src={ Person2 } alt="" className="rightbar-profile-image" />
+                            <span className="rightbar-online"></span>
+                        </div>
+                        <span className="rightbar-username">John Doe</span>
+                    </li>
+                    <li className="rightbar-friend">
+                        <div className="rightbar-profile-image-container">
+                            <img src={ Person2 } alt="" className="rightbar-profile-image" />
+                            <span className="rightbar-online"></span>
+                        </div>
+                        <span className="rightbar-username">John Doe</span>
+                    </li>
+                    <li className="rightbar-friend">
+                        <div className="rightbar-profile-image-container">
+                            <img src={ Person2 } alt="" className="rightbar-profile-image" />
+                            <span className="rightbar-online"></span>
+                        </div>
+                        <span className="rightbar-username">John Doe</span>
+                    </li>
+                    <li className="rightbar-friend">
+                        <div className="rightbar-profile-image-container">
+                            <img src={ Person2 } alt="" className="rightbar-profile-image" />
+                            <span className="rightbar-online"></span>
+                        </div>
+                        <span className="rightbar-username">John Doe</span>
+                    </li>
                 </ul>
             </div>
         </div>
