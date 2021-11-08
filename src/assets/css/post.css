@@ -76,3 +76,5 @@
     border-bottom: 1px dashed gray;
     font-style: 15px;
 }
+
+/* Users.filter((u) => u.id === post?.userId)[0].username */
