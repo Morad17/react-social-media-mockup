@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{ useState } from 'react'
 import '../assets/css/post.css'
 import Person1 from '../assets/images/person-1.jpg'
 import Post1 from '../assets/images/post-1.jpg'
@@ -13,7 +13,14 @@ import { Users } from '../components/UserData'
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 const Post = ({post}) => {
-    console.log(Users.username)
+    
+    const [like, setLike ] = useState(post.like)
+    const [isLike, setIsLike ] = useState(false)
+
+    const likeHandler = () => {
+        setLike( isLike ? like-1 : like+1)
+        setIsLike(!isLike)
+    }
     return (
         <div className="post-container">
             <div className="post-wrapper">
@@ -35,9 +42,9 @@ const Post = ({post}) => {
                 </div>
                 <div className="post-bottom">
                     <div className="post-bottom-left">
-                        <img src={ Like } alt="" className="like-icon" />
-                        <img src={ Love } alt="" className="like-icon" />
-                        <span className="post-like-counter">{post.like} likes</span>
+                        <img src={ Like } alt="" className="like-icon" onClick={likeHandler} />
+                        <img src={ Love } alt="" className="like-icon" onClick={likeHandler}/>
+                        <span className="post-like-counter">{like} likes</span>
                     </div>
                     <div className="post-bottom-right">
                         <span className="post-comment-text">{post.comment} comments</span>

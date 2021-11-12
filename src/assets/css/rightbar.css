@@ -68,3 +68,40 @@
     font-weight: 500;
     margin-bottom: 10px;
 }
+
+.rightbar-info{
+    margin-bottom: 30px;
+}
+.rightbar-info-item{
+    margin-bottom: 10px;
+}
+
+.rightbar-info-key{
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+}
+
+.rightbar-info-value{
+    font-weight: 300;
+}
+
+.rightbar-follow-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rightbar-following{
+    display: flex;
+    flex-direction: column ;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.rightbar-following-image{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
