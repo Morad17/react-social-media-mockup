@@ -1,7 +1,7 @@
 import React from 'react'
-import '../assets/css/login.css'
+import '../assets/css/register.css'
 
-const Login = () => {
+const Register = () => {
     return (
         <div className="login">
             <div className="login-wrapper">
@@ -13,11 +13,12 @@ const Login = () => {
                 </div>
                 <div className="login-right">
                     <div className="login-box">
+                        <input placeholder="Username" type="text" className="login-input" />
                         <input placeholder="Email" type="text" className="login-input" />
                         <input placeholder="Password" type="text" className="login-input" />
-                        <button className="login-button">Log In</button>
+                        <button className="login-button">Sign Up</button>
                         <span className="login-forgot">Forgot Password?</span>
-                        <button className="login-register-button">Create New Account</button>
+                        <button className="login-register-button">Register Account</button>
                     </div>
                 </div>
             </div>
@@ -25,4 +26,4 @@ const Login = () => {
     )
 }
 
-export default Login
+export default Register
